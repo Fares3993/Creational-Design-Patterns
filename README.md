@@ -7,3 +7,5 @@ The system includes an "Notification" interface with a "notifyUser" function, an
 
 ## 2- Abstract Factory Design Pattern:
 Implemented a concise example of the Abstract Factory Design Pattern for a Furniture Store scenario. The project enables customers to select between metal or wood materials and further choose chairs or tables accordingly. Interfaces and classes represent various furniture items, ensuring modularity and flexibility. The Abstract Factory pattern facilitates the creation of furniture families without specifying their concrete classes, promoting scalability in the design.
+## 3- Builder Design Pattern:
+Developed a simple implementation of the Builder Design Pattern for creating User objects with optional attributes. The User class includes final attributes and an inner static UserBuilder class for constructing User objects with required and optional parameters. The pattern ensures immutability and flexibility when constructing User instances. The Main class exemplifies the usage of the UserBuilder to create User objects with different combinations of attributes.
